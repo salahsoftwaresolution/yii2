@@ -212,7 +212,7 @@ In any place, you can get access to the [[yii\base\View|view]] application compo
 
 ```php
 // displays the view file "@app/views/site/license.php"
-echo \Yii::$app->view->renderFile('@app/views/site/license.php');
+Yii::$app->view->renderFile('@app/views/site/license.php');
 ```
 
 
